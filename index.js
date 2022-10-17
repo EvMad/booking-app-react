@@ -6,11 +6,13 @@ import mongoose from "mongoose";
 const app = express();
 dotenv.config();
 
-try {
-    await mongoose.connect(process.env.MONGO);
-} catch (error) {
-    handleError(error);
-};
+const connect = async () => {
+    try {
+        await mongoose.connect(process.env.MONGO);
+    } catch (error) {
+        throw error;
+    };
+}
 
 app.listen(8800, () => {
     console.log("Connected to backend.")
