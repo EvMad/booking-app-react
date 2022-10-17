@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/EvMad/booking-app-react#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mongoose": "^6.6.5",
     "nodemon": "^2.0.20"
   }
 }
