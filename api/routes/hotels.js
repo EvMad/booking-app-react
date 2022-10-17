@@ -4,7 +4,7 @@ const router = express.Router();
 
 //CREATE
 
-router.post("/", (req, res) => {
+router.post("/", async (req, res) => {
 
 });
 
