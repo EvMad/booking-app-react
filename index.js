@@ -15,5 +15,6 @@ const connect = async () => {
 }
 
 app.listen(8800, () => {
-    console.log("Connected to backend.")
+    connect();
+    console.log("Connected to backend.");
 });
