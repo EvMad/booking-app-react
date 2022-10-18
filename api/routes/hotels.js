@@ -61,6 +61,7 @@ router.get("/:id", async (req, res) => {
 
 router.get("/", async (req, res) => {
 
+    console.log("hi from get all hotels route");
     try{
         const hotels = await Hotel.find();
         res.status(200).json(hotels);
