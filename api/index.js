@@ -35,8 +35,9 @@ app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
-app.use((req,res,next) => {
+app.use((err,req,res,next) => {
     console.log("hi from middleware");
+    next();
 });
 
 
