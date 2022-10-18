@@ -36,6 +36,7 @@ app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
 app.use((err,req,res,next) => {
+    const errorStatus = err.status || 500;
    return res.status(500).json("Hello, error from handler.");
    
 });
