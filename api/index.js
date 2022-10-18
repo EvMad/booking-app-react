@@ -36,8 +36,8 @@ app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
 app.use((err,req,res,next) => {
-    console.log("hi from middleware");
-    next();
+   return res.status(500).json("Hello, error from handler.");
+   
 });
 
 
