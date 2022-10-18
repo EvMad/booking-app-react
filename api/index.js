@@ -37,6 +37,7 @@ app.use("/api/rooms", roomsRoute);
 
 app.use((err,req,res,next) => {
     const errorStatus = err.status || 500;
+    const errorMessage = err.message || "Something went wrong.";
    return res.status(500).json("Hello, error from handler.");
    
 });
