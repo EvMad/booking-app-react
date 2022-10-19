@@ -1,5 +1,5 @@
 import express from "express";
-import Hotel from "../models/Hotel.js";
+// import Hotel from "../models/Hotel.js";
 import { createHotel } from "../controllers/hotel.js";
 import { updateHotel } from "../controllers/hotel.js";
 import { deleteHotel } from "../controllers/hotel.js";

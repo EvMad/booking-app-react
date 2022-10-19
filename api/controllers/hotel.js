@@ -1,5 +1,6 @@
-//CREATE
+import Hotel from "../models/Hotel.js";
 
+//CREATE
 export const createHotel = async (req,res,next) => {
     const newHotel = new Hotel(req.body);
 
@@ -63,4 +64,4 @@ export const getAllHotels = async (req, res, next) => {
         next(err);
     }
 
-}
+};
