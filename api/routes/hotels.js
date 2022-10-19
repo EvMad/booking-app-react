@@ -2,6 +2,7 @@ import express from "express";
 import Hotel from "../models/Hotel.js";
 import { createHotel } from "../controllers/hotel.js";
 import { updateHotel } from "../controllers/hotel.js";
+import { deleteHotel } from "../controllers/hotel.js";
 
 const router = express.Router();
 
@@ -15,16 +16,7 @@ router.put("/:id", updateHotel );
 
 //DELETE
 
-router.delete("/:id", async (req, res) => {
-
-    try{
-        await Hotel.findByIdAndDelete(req.params.id);
-        res.status(200).json("Hotel has been deleted.");
-    }catch(err){
-        res.status(500).json(err);
-    }
-
-});
+router.delete("/:id", deleteHotel );
 
 //GET
 
