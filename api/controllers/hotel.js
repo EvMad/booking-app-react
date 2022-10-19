@@ -1,3 +1,5 @@
+//CREATE
+
 export const createHotel = async (req,res,next) => {
     const newHotel = new Hotel(req.body);
 
@@ -9,6 +11,7 @@ export const createHotel = async (req,res,next) => {
     }
 };
 
+//UPDATE
 export const updateHotel = async (req, res, next) => {
 
     try{
@@ -25,6 +28,7 @@ export const updateHotel = async (req, res, next) => {
 
 };
 
+//DELETE
 export const deleteHotel = async (req, res, next) => {
 
     try{
@@ -36,6 +40,7 @@ export const deleteHotel = async (req, res, next) => {
 
 };
 
+//GET
 export const getHotel = async (req, res, next) => {
 
     try{
@@ -47,6 +52,7 @@ export const getHotel = async (req, res, next) => {
 
 };
 
+//GET ALL
 export const getAllHotels = async (req, res, next) => {
  
     
