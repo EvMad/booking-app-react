@@ -2,6 +2,7 @@ import express from "express";
 import { createHotel, updateHotel, deleteHotel, getHotel, getAllHotels } from "../controllers/hotel.js";
 
 
+
 const router = express.Router();
 
 //CREATE
