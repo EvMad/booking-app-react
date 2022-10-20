@@ -11,7 +11,7 @@ router.get("/checkauthentication", verifyToken, (req,res,next) => {
 } );
 
 router.get("/checkuser", verifyUser , (req,res,next) => {
-    res.send("hello user, you are logged in and .")
+    res.send("hello user, you are logged in and you can delete your account.")
 } );
 
 

@@ -24,5 +24,15 @@ export const verifyUser = (req,res,next) => {
         } else {
             if (err) return next(createError(403, "You are not authorized."));
         }
-    })
+    });
+};
+
+export const verifyAdmin = (req,res,next) => {
+    verifyToken(req,res, () => {
+        if(req.user.isAdmin){
+            next();
+        } else {
+            if (err) return next(createError(403, "You are not authorized."));
+        }
+    });
 };
