@@ -1,5 +1,26 @@
 import express from "express";
+import { updateUser } from "../controllers/user.js";
+import { deleteUser } from "../controllers/user.js";
+import { getUser } from "../controllers/user.js";
+import { getAllUsers } from "../controllers/user.js";
 
 const router = express.Router();
 
-export default router
+
+//UPDATE
+
+router.put("/:id", updateUser );
+
+//DELETE
+
+router.delete("/:id", deleteUser );
+
+//GET
+
+router.get("/:id", getUser );
+
+//GET ALL
+
+router.get("/", getAllUsers );
+
+export default router;

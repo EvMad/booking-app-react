@@ -43,7 +43,7 @@ export const getUser = async (req, res, next) => {
 };
 
 //GET ALL
-export const getAllUserss = async (req, res, next) => {
+export const getAllUsers = async (req, res, next) => {
  
     
     try{
