@@ -1,6 +1,8 @@
 import User from "../models/User.js";
 import bcrypt from "bcrypt";
 
+
+//REGISTER
 export const register = async (req,res,next) => {
 
     try {
@@ -23,7 +25,7 @@ export const register = async (req,res,next) => {
 
 };
 
-
+//LOGIN
 export const login = async (req,res,next) => {
 
     try {
