@@ -1,12 +1,12 @@
 import express from "express";
-import { createRoom, updateRoom, deleteRoom } from "../controllers/room.js";
+import { createRoom, updateRoom, deleteRoom, getRoom, getAllRooms } from "../controllers/room.js";
 import { verifyAdmin } from "../utils/verifyToken.js";
 
 const router = express.Router();
 
 //CREATE
 
-router.post("/", verifyAdmin, createRoom );
+router.post("/:hotelid", verifyAdmin, createRoom );
 
 //UPDATE
 
