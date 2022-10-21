@@ -29,7 +29,7 @@ router.delete("/:id", verifyUser, deleteUser );
 
 //GET
 
-router.get("/:id", getUser );
+router.get("/:id", verifyUser, getUser );
 
 //GET ALL
 
