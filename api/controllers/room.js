@@ -1,6 +1,7 @@
 import Room from "../models/Room.js";
 import Hotel from "../models/Hotel.js";
 import { createError } from "../utils/error.js";
+import { request } from "express";
 
 
 //CREATE
@@ -50,7 +51,7 @@ export const deleteRoom = async (req, res, next) => {
         await Room.findByIdAndDelete(req.params.id);
         try {
             await Hotel.findByIdAndUpdate(hotelId, {
-                $pull: { rooms: savedRoom._id },
+                $pull: { rooms: req.param.id },
             });
         } catch (err) {
             next(err);
