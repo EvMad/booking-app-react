@@ -11,7 +11,7 @@ router.post("/", verifyAdmin, createHotel );
 
 //UPDATE
 
-router.put("/:id", updateHotel );
+router.put("/:id", verifyAdmin, updateHotel );
 
 //DELETE
 
