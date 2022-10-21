@@ -20,7 +20,7 @@ const RoomSchema = new mongoose.Schema({
         required: true
     },
     
-    roomNumbers: [],
+    roomNumbers: [{}],
     
 },
     {timestamps: true}
