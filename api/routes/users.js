@@ -21,7 +21,7 @@ router.get("/checkadmin/:id", verifyAdmin , (req,res,next) => {
 
 //UPDATE
 
-router.put("/:id", updateUser );
+router.put("/:id", verifyUser, updateUser );
 
 //DELETE
 
