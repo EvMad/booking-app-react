@@ -15,7 +15,7 @@ router.put("/:id", verifyAdmin, updateHotel );
 
 //DELETE
 
-router.delete("/:id", deleteHotel );
+router.delete("/:id", verifyAdmin, deleteHotel );
 
 //GET
 
