@@ -25,7 +25,7 @@ router.put("/:id", verifyUser, updateUser );
 
 //DELETE
 
-router.delete("/:id", deleteUser );
+router.delete("/:id", verifyUser, deleteUser );
 
 //GET
 
