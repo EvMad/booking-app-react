@@ -25,6 +25,12 @@ const Header = () => {
                 <span>Car Rentals</span>
                 </div>
             </div>
+            <div className="headerList">
+                <div className="headerListItem">
+                <FontAwesomeIcon icon={faCar} />
+                <span>Attractions</span>
+                </div>
+            </div>
         </div>
     )
 };
