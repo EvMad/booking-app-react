@@ -8,6 +8,7 @@ const Header = () => {
             <div className="headerList">
                 <div className="headerListItem">
                 <FontAwesomeIcon icon={faBed} />
+                <span>Stays</span>
                 </div>
             </div>
         </div>
