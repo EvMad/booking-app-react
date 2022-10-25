@@ -9,7 +9,8 @@ import "./header.css";
 const Header = () => {
     return (
         <div className="header">
-            <div className="headerList">
+           <div className="headerContainer">
+           <div className="headerList">
                 <div className="headerListItem">
                 <FontAwesomeIcon icon={faBed} />
                 <span>Stays</span>
@@ -39,6 +40,7 @@ const Header = () => {
                 <span>Airport Taxis</span>
                 </div>
             </div>
+           </div>
         </div>
     )
 };
