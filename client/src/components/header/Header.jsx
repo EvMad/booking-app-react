@@ -1,6 +1,7 @@
 import { faBed } from "@fortawesome/free-solid-svg-icons";
 import { faPlane } from "@fortawesome/free-solid-svg-icons";
 import { faCar } from "@fortawesome/free-solid-svg-icons";
+import { faBinoculars } from "@fortawesome/free-solid-svg-icons";
 import { faTaxi } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
@@ -28,7 +29,7 @@ const Header = () => {
             </div>
             <div className="headerList">
                 <div className="headerListItem">
-                <FontAwesomeIcon icon={faCar} />
+                <FontAwesomeIcon icon={faBinoculars} />
                 <span>Attractions</span>
                 </div>
             </div>
