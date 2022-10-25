@@ -1,4 +1,5 @@
 import { faBed } from "@fortawesome/free-solid-svg-icons";
+import { faPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
 
@@ -9,6 +10,12 @@ const Header = () => {
                 <div className="headerListItem">
                 <FontAwesomeIcon icon={faBed} />
                 <span>Stays</span>
+                </div>
+            </div>
+            <div className="headerList">
+                <div className="headerListItem">
+                <FontAwesomeIcon icon={faPlane} />
+                <span>Flights</span>
                 </div>
             </div>
         </div>
