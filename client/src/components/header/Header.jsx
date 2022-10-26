@@ -33,7 +33,7 @@ const Header = () => {
                 </div>
                 </div>
                 <h1 classname="headerTitle">A Lifetime of discounts? It's Genius</h1>
-                <p className="headerDesc">Get rewarded for your travels - unlock instant savings</p>
+                <p className="headerDesc">Get rewarded for your travels - unlock instant savings of 10% or more with a free Booking account</p>
                 <button className="headerBtn">Sign In / Register</button>
                 </div>
                 </div>
