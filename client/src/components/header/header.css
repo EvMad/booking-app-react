@@ -14,6 +14,7 @@
 .headerList {
     display: flex;
     gap: 40px;
+    margin-bottom: 50px;
 }
 
 .headerListItem {
@@ -29,5 +30,10 @@
 }
 
 .headerDesc {
-    margin: 20px;
+    margin: 20px 0px;
+}
+
+.headerBtn {
+    background-color: #0071c2;
+    color: white;
 }
