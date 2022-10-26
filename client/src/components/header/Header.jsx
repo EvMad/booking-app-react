@@ -14,15 +14,19 @@ const Header = () => {
                 <div className="headerListItem">
                 <FontAwesomeIcon icon={faBed} />
                 <span>Stays</span>
+                </div>
                 <div className="headerListItem">
                 <FontAwesomeIcon icon={faPlane} />
                 <span>Flights</span>
+                </div>
                 <div className="headerListItem">
                 <FontAwesomeIcon icon={faCar} />
                 <span>Car Rentals</span>
+                </div>
                 <div className="headerListItem">
                 <FontAwesomeIcon icon={faBinoculars} />
                 <span>Attractions</span>
+                </div>
                 <div className="headerListItem">
                 <FontAwesomeIcon icon={faTaxi} />
                 <span>Airport Taxis</span>
@@ -30,11 +34,7 @@ const Header = () => {
                 </div>
                 </div>
                 </div>
-            </div>
-                </div>
-            </div>
-        
-           </div>
+         
     
     )
 };
