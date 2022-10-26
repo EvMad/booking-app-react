@@ -34,6 +34,7 @@ const Header = () => {
                 </div>
                 <h1 classname="headerTitle">A Lifetime of discounts? It's Genius</h1>
                 <p className="headerDesc">Get rewarded for your travels - unlock instant savings</p>
+                <button className="headerBtn">Sign In / Register</button>
                 </div>
                 </div>
          
