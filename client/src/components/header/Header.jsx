@@ -43,7 +43,7 @@ const Header = () => {
                     </div>
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
-                        <input type="text" placeholder="Where are you going?" className="headerSearchInput" />
+                        <span className="headerSearchText">date to date</span>
                     </div>
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faBed} className="headerIcon" />
