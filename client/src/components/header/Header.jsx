@@ -3,6 +3,7 @@ import { faPlane } from "@fortawesome/free-solid-svg-icons";
 import { faCar } from "@fortawesome/free-solid-svg-icons";
 import { faBinoculars } from "@fortawesome/free-solid-svg-icons";
 import { faTaxi } from "@fortawesome/free-solid-svg-icons";
+import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
 
@@ -36,6 +37,14 @@ const Header = () => {
                 <p className="headerDesc">Get rewarded for your travels - unlock instant savings of 10% or more with a free Booking account</p>
                 <button className="headerBtn">Sign In / Register</button>
                 <div className="headerSearch">
+                    <div className="headerSearchItem">
+                        <FontAwesomeIcon icon={faBed} className="headerIcon" />
+                        <input type="text" placeholder="Where are you going?" className="headerSearchInput" />
+                    </div>
+                    <div className="headerSearchItem">
+                        <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
+                        <input type="text" placeholder="Where are you going?" className="headerSearchInput" />
+                    </div>
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faBed} className="headerIcon" />
                         <input type="text" placeholder="Where are you going?" className="headerSearchInput" />
