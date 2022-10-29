@@ -38,6 +38,7 @@ const Header = () => {
                 <div className="headerSearch">
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faBed} className="headerIcon" />
+                        <input type="text" placeholder="Where are you going?" className="headerSearchInput" />
                     </div>
                 </div>
                 </div>
