@@ -4,6 +4,7 @@ import { faCar } from "@fortawesome/free-solid-svg-icons";
 import { faBinoculars } from "@fortawesome/free-solid-svg-icons";
 import { faTaxi } from "@fortawesome/free-solid-svg-icons";
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
+import { faPerson } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
 
@@ -46,8 +47,8 @@ const Header = () => {
                         <span className="headerSearchText">date to date</span>
                     </div>
                     <div className="headerSearchItem">
-                        <FontAwesomeIcon icon={faBed} className="headerIcon" />
-                        <input type="text" placeholder="Where are you going?" className="headerSearchInput" />
+                        <FontAwesomeIcon icon={faPerson} className="headerIcon" />
+                        <span className="headerSearchText">2 adults 2 children 1 room</span>
                     </div>
                 </div>
                 </div>
