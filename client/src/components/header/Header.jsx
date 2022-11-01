@@ -9,6 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
 import { DateRange } from "react-date-range";
 import { useState } from "react";
+import 'react-date-range/dist/style.css';
+import 'react-date-range/dist/theme/default.css';
 
 const Header = () => {
     const [date, setDate] = useState([
