@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
 import { DateRange } from "react-date-range";
 import { useState } from "react";
-import 'react-date-range/dist/style.css';
+import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 
 const Header = () => {
@@ -59,7 +59,8 @@ const Header = () => {
                         <DateRange editableDateInputs={true}
                         onChange={item => setDate([item.selection])}
                         moveRangeOnFirstSelection={false}
-                        ranges={date} />
+                        ranges={date}
+                        className="date" />
                     </div>
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faPerson} className="headerIcon" />
