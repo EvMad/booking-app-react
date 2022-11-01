@@ -62,6 +62,8 @@
     color: lightgray;
 }
 
-.headerSearchInput {
-
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
