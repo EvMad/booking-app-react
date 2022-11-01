@@ -3,6 +3,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .headerContainer {
