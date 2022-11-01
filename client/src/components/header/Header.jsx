@@ -7,6 +7,7 @@ import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import { faPerson } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
+import { DateRange } from 'react-date-range';
 
 const Header = () => {
     return (
