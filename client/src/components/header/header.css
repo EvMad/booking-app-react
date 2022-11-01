@@ -49,6 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    bottom: -25px;
 }
 
 .headerIcon {
