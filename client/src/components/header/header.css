@@ -55,6 +55,7 @@
     position: absolute;
     bottom: -25px;
     width: 100%;
+    max-width: 1024px;
 }
 
 .headerIcon {
