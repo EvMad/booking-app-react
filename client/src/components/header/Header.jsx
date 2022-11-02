@@ -14,6 +14,7 @@ import 'react-date-range/dist/theme/default.css';
 import { format } from "date-fns";
 
 const Header = () => {
+    const [openDate, setOpenDate] = useState(false);
     const [date, setDate] = useState([
        {
         startDate: new Date(),
