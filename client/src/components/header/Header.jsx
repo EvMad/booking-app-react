@@ -22,6 +22,9 @@ const Header = () => {
         key: 'selection'
        }
     ]);
+
+    const [openOptions, setOpenOptions] = useState(false);
+
     return (
         <div className="header">
            <div className="headerContainer">
