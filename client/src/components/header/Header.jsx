@@ -56,7 +56,7 @@ const Header = () => {
                     </div>
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
-                        <span className="headerSearchText">date to date</span>
+                        <span className="headerSearchText">{`${format(date[0].startDate, "MM/dd/yyyy")}`}</span>
                         <DateRange editableDateInputs={true}
                         onChange={item => setDate([item.selection])}
                         moveRangeOnFirstSelection={false}
