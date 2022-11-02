@@ -77,7 +77,8 @@ const Header = () => {
                         <span className="headerSearchText">{`${options.adult} adult \u00B7 ${options.children} children \u00B7 ${options.room} room `}</span>
                         <div className="options">
                             <div className="optionItem">
-                                <span className="optionText"></span>
+                                <span className="optionText">Adult</span>
+                                <button className="optionCounterButton"></button>
                             </div>
                         </div>
                     </div>
