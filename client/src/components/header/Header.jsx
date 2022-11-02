@@ -75,6 +75,11 @@ const Header = () => {
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faPerson} className="headerIcon" />
                         <span className="headerSearchText">{`${options.adult} adult \u00B7 ${options.children} children \u00B7 ${options.room} room `}</span>
+                        <div className="options">
+                            <div className="optionItem">
+                                <span className="optionText"></span>
+                            </div>
+                        </div>
                     </div>
                     <div className="headerSearchItem">
                         <button className="headerBtn">Search</button>
