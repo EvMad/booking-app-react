@@ -78,7 +78,9 @@ const Header = () => {
                         <div className="options">
                             <div className="optionItem">
                                 <span className="optionText">Adult</span>
-                                <button className="optionCounterButton"></button>
+                                <button className="optionCounterButton">-</button>
+                                <span className="optionCounterNumber">1</span>
+                                <button className="optionCounterButton">+</button>
                             </div>
                         </div>
                     </div>
