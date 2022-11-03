@@ -4,7 +4,7 @@ import Header from "../../components/header/Header";
 
 const List = () => {
     return (
-        <div><Navbar/><Header/></div>
+        <div><Navbar/><Header type="list"/></div>
     )
 };
 
