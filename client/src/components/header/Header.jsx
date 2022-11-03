@@ -104,7 +104,7 @@ const Header = () => {
                             <div className="optionItem">
                                 <span className="optionText">Rooms</span>
                                <div className="optionCounter">
-                               <button className="optionCounterButton" onClick={()=>handleOption("rooms", "d")}>-</button>
+                               <button disabled={options.room <= 1} className="optionCounterButton" onClick={()=>handleOption("rooms", "d")}>-</button>
                                 <span className="optionCounterNumber">{options.room}</span>
                                 <button className="optionCounterButton" onClick={()=>handleOption("rooms", "i")}>+</button>
                                </div>
