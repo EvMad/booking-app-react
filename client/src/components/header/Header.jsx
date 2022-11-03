@@ -13,7 +13,7 @@ import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 import { format } from "date-fns";
 
-const Header = () => {
+const Header = ({type}) => {
     const [openDate, setOpenDate] = useState(false);
     const [date, setDate] = useState([
        {
