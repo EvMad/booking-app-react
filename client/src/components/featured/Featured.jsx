@@ -1,12 +1,13 @@
 import "./featured.css";
+import Chicago from "../../images/Chicago.jpg";
 
 const Featured = () => {
     return (
         <div className="featured">
             <div className="featuredItem">
-                <img src="" alt="" className="featuredImg" />
+                <img src={Chicago} alt="Chicago skyline at sunset" className="featuredImg" />
                 <div className="featuredTitles">
-                    <h1></h1>
+                    <h1>Chicago</h1>
                 </div>
             </div>
         </div>
