@@ -1,5 +1,6 @@
 import { Villa } from "../../images/images.jsx";
 import { Apartment } from "../../images/images.jsx";
+import { Hotel } from "../../images/images.jsx";
 import "./propertyList.css";
 
 const PropertyList = () => {
@@ -16,6 +17,13 @@ const PropertyList = () => {
                 <div className="pListTitles">
                     <h1>Apartment</h1>
                     <h2>23,564 apartments</h2>
+                </div>
+            </div>
+            <div className="pListItem">
+                <img src={Hotel} alt="Apartment interior with yellow sofa" className="pListImg" />
+                <div className="pListTitles">
+                    <h1>Hotels</h1>
+                    <h2>576,284 hotels</h2>
                 </div>
             </div>
             </div>
