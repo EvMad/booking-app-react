@@ -2,7 +2,12 @@ import "./featured.css";
 
 const Featured = () => {
     return (
-        <div>Featured</div>
+        <div className="featured">
+            <div className="featuredItem">
+                <img src="" alt="" className="featuredImg" />
+            </div>
+
+        </div>
     );
 };
 
