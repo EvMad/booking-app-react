@@ -1,8 +1,12 @@
-import React from 'react';
+import "./propertyList.css";
 
 const PropertyList = () => {
     return (
-        <div>Property List</div>
+        <div className="pList">
+            <div className="pListItem">
+                <img src="" alt="" className="pListImg" />
+            </div>
+        </div>
     );
 };
 
