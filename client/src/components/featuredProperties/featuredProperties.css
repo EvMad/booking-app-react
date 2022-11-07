@@ -34,4 +34,10 @@
     color: white;
     border: none;
     padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.fpRating > span {
+    font-size: 14px;
 }
