@@ -8,9 +8,15 @@
 
 .fpItem {
     flex: 1;
-    gap: 10px
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .fpImg {
     width: 100%;
+}
+
+.fpName {
+    font-weight: bold;
 }
