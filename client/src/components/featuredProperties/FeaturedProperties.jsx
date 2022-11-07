@@ -4,7 +4,7 @@ import { Feature1, Feature2, Feature3 } from "../../images/images.jsx";
 const FeaturedProperties = () => {
     return (
         <div className="fp">
-            <div className="fpItm">
+            <div className="fpItem">
             <img className="fpImg" src={ Feature1 } alt="" />
             <span className="fpName">Fountain Hotel</span>
             <span className="fpCity">Rome, Italy</span>
@@ -14,7 +14,7 @@ const FeaturedProperties = () => {
                 <span>Excellent</span>
             </div>
             </div>
-            <div className="fpItm">
+            <div className="fpItem">
             <img className="fpImg" src={ Feature2 } alt="" />
             <span className="fpName">Boutique Hotel Garden</span>
             <span className="fpCity">Athens, Greece</span>
@@ -24,7 +24,7 @@ const FeaturedProperties = () => {
                 <span>Excellent</span>
             </div>
             </div>
-            <div className="fpItm">
+            <div className="fpItem">
             <img className="fpImg" src={ Feature3 } alt="" />
             <span className="fpName">Aparthotel Grand</span>
             <span className="fpCity">Bangkok, Thailand</span>
