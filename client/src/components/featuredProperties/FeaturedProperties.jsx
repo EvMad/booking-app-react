@@ -2,7 +2,10 @@ import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
     return (
-        <div>Featured Properties</div>
+        <div className="fp">
+            <img className="fpImg" src="" alt="" />
+            <span className="fpName">Fountain Hotel</span>
+        </div>
     );
 };
 
