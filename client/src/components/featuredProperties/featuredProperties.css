@@ -20,3 +20,11 @@
 .fpName {
     font-weight: bold;
 }
+
+.fpCity {
+    font-weight: 300;
+}
+
+.fpPrice {
+    font-weight: 500;
+}
