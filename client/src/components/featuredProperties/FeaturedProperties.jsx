@@ -1,5 +1,5 @@
 import "./featuredProperties.css";
-import { Feature1, Feature2, Feature3 } from "../../images/images.jsx";
+import { Feature1, Feature2, Feature3, Feature4 } from "../../images/images.jsx";
 
 const FeaturedProperties = () => {
     return (
@@ -31,6 +31,16 @@ const FeaturedProperties = () => {
             <span className="fpPrice">Starting from $120</span>
             <div className="fpRating">
                 <button>9.1</button>
+                <span>Excellent</span>
+            </div>
+            </div>
+            <div className="fpItem">
+            <img className="fpImg" src={ Feature4 } alt="" />
+            <span className="fpName">Central Square Hotel</span>
+            <span className="fpCity">Sydney, Australia</span>
+            <span className="fpPrice">Starting from $175</span>
+            <div className="fpRating">
+                <button>8.9</button>
                 <span>Excellent</span>
             </div>
             </div>
