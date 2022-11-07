@@ -28,3 +28,10 @@
 .fpPrice {
     font-weight: 500;
 }
+
+.fpRating > button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+}
