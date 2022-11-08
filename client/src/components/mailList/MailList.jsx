@@ -2,7 +2,9 @@ import "./mailList.css";
 
 const MailList = () => {
     return (
-        <div>MailList</div>
+        <div className="mail">
+            <h1 className="mailTitle">Save time, save money!</h1>
+        </div>
     );
 };
 
