@@ -37,12 +37,12 @@ const Footer = () => {
                     <li className="fListItem">Places of Interest</li>
                 </ul>
                 <ul className="fList">
-                    <li className="fListItem">Countries</li>
-                    <li className="fListItem">Regions</li>
-                    <li className="fListItem">Cities</li>
-                    <li className="fListItem">Districts</li>
-                    <li className="fListItem">Airports</li>
-                    <li className="fListItem">Hotels</li>
+                    <li className="fListItem">About</li>
+                    <li className="fListItem">Customer Service</li>
+                    <li className="fListItem">Careers</li>
+                    <li className="fListItem">Press Center</li>
+                    <li className="fListItem">Terms and Conditions</li>
+                    <li className="fListItem">Privacy</li>
                 </ul>
             </div> 
             <div className="fText">Copyright 2022</div>
