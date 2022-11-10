@@ -29,12 +29,12 @@ const Footer = () => {
                     <li className="fListItem">Seasonal Deals</li>
                 </ul>
                 <ul className="fList">
-                    <li className="fListItem">Countries</li>
-                    <li className="fListItem">Regions</li>
-                    <li className="fListItem">Cities</li>
-                    <li className="fListItem">Districts</li>
-                    <li className="fListItem">Airports</li>
-                    <li className="fListItem">Hotels</li>
+                    <li className="fListItem">Car Rental</li>
+                    <li className="fListItem">Flight Finder</li>
+                    <li className="fListItem">Restaurant Reservations</li>
+                    <li className="fListItem">Travel Agents</li>
+                    <li className="fListItem">Travel Communities</li>
+                    <li className="fListItem">Places of Interest</li>
                 </ul>
                 <ul className="fList">
                     <li className="fListItem">Countries</li>
