@@ -37,6 +37,11 @@
     font-size: 12px;
 }
 
+.lsItem > input {
+    height: 30px;
+    border: none;
+}
+
 .listResult {
     flex: 3;
 }
