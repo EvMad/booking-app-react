@@ -37,6 +37,14 @@ const List = () => {
                             ranges={date}
                             />)}
                         </div>
+                        <div className="lsItem">
+                            <label>Options</label>
+                            <div className="lsOptionItem">
+                                <span className="lsOptionText">
+                                    Min price <small>per night</small>
+                                </span>
+                            </div>
+                        </div>
                     </div>
                     <div className="listResult"></div>
                 </div>
