@@ -33,6 +33,10 @@
     margin-bottom: 10px;
 }
 
+.lsItem > label {
+    font-size: 12px;
+}
+
 .listResult {
     flex: 3;
 }
