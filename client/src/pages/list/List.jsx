@@ -28,14 +28,14 @@ const List = () => {
                         </div>
                         <div className="lsItem">
                             <label>Check-in Date</label>
-                            <span>{`${format(date[0].startDate, "MM/dd/yyyy")} to 
+                            <span onClick={() => setOpenDate(!openDate)}>{`${format(date[0].startDate, "MM/dd/yyyy")} to 
                             ${format(date[0].endDate, "MM/dd/yyyy")}`}
                             </span>
-                          {openDate &&   <DateRange 
+                          {openDate &&   (<DateRange 
                             onChange={item => setDate([item.selection])} 
                             minDate={new Date()}
                             ranges={date}
-                            />}
+                            />)}
                         </div>
                     </div>
                     <div className="listResult"></div>
