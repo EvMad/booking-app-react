@@ -52,6 +52,13 @@
     cursor: pointer;
 }
 
+.lsOptionItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
 .listResult {
     flex: 3;
 }
