@@ -39,7 +39,8 @@ const List = () => {
                         </div>
                         <div className="lsItem">
                             <label>Options</label>
-                            <div className="lsOptionItem">
+                       <div className="lsOptions">
+                       <div className="lsOptionItem">
                                 <span className="lsOptionText">
                                     Min price <small>per night</small>
                                 </span>
@@ -69,6 +70,7 @@ const List = () => {
                                 </span>
                                 <input type="number" min={1} className="lsOptionInput" placeholder={options.room} />
                             </div>
+                       </div>
                         </div>
                     </div>
                     <div className="listResult"></div>
