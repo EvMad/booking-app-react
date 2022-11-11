@@ -14,6 +14,7 @@ import 'react-date-range/dist/theme/default.css';
 import { format } from "date-fns";
 
 const Header = ({type}) => {
+    const [destination, setDestination] = useState("");
     const [openDate, setOpenDate] = useState(false);
     const [date, setDate] = useState([
        {
@@ -30,6 +31,8 @@ const Header = ({type}) => {
         room: 1,
     });
 
+    const navigate = useNavigate();
+
     const handleOption = (name, operation) => {
         setOptions((prev) => {
             return {
@@ -40,7 +43,7 @@ const Header = ({type}) => {
     };
 
     const handleSearch = () => {
-
+        navigate("/hotels")
     };
 
     return (
