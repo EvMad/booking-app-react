@@ -43,7 +43,7 @@ const Header = ({type}) => {
     };
 
     const handleSearch = () => {
-        navigate("/hotels", { state: {} });
+        navigate("/hotels", { state: { destination, date, options } });
     };
 
     return (
@@ -77,7 +77,11 @@ const Header = ({type}) => {
                 <div className="headerSearch">
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faBed} className="headerIcon" />
-                        <input type="text" placeholder="Where are you going?" className="headerSearchInput" />
+                        <input 
+                        type="text" 
+                        placeholder="Where are you going?" 
+                        className="headerSearchInput"
+                        onChange={e => setDestination(e.target.value)} />
                     </div>
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
