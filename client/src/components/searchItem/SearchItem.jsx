@@ -2,7 +2,9 @@ import "./searchItem.css";
 
 const SearchItem = () => {
     return (
-        <div>SearchItem</div>
+        <div className="searchItem">
+            <img src="" alt="" className="siImg" />
+        </div>
     );
 };
 
