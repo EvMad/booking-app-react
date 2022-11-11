@@ -29,6 +29,8 @@ const List = () => {
                             <span>{`${format(date[0].startDate, "MM/dd/yyyy")} to 
                             ${format(date[0].endDate, "MM/dd/yyyy")}`}
                             </span>
+                            <DateRange 
+                            onChange={item => setDate([item.selection])} minDate={new Date()}/>
                         </div>
                     </div>
                     <div className="listResult"></div>
