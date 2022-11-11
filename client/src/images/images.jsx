@@ -7,6 +7,7 @@ import Feature4 from './Feature4.jpg';
 import Hotel from './Hotel.jpg';
 import NYC from './NYC.jpg';
 import Resort from './Resort.jpg';
+import Search1 from './Search1.jpg';
 import Tokyo from './Tokyo.jpg';
 import Villa from './Villa.jpg';
 
@@ -21,6 +22,7 @@ export {
     Hotel,
     NYC,
     Resort,
+    Search1,
     Tokyo,
     Villa
 };
