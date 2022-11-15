@@ -26,6 +26,10 @@
     color: #0071c2;
 }
 
+.siDistance {
+    font-size: 12px;
+}
+
 .siDetails {
     flex: 1;
 }
