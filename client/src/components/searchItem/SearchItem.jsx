@@ -13,7 +13,7 @@ const SearchItem = () => {
                     One Bedroom Apartment with Balcony
                 </span>
                 <span className="siFeatures">
-                    Entire apartment \u00B7 1 bathroom \u00B7 1 queen bed
+                    Entire apartment {`\u00B7`} 1 bathroom {`\u00B7`}  1 queen bed
                 </span>
             </div>
             <div className="siDetails"></div>
