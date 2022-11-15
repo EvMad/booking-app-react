@@ -63,11 +63,15 @@
     flex: 1;
 }
 
-.siRatings {
+.siRating {
     display: flex;
     justify-content: space-between;
 }
 
-.siRatings > span {
+.siRating > span {
     font-weight: 500;
+}
+
+.siRating > button {
+    background-color: #003580;
 }
