@@ -62,3 +62,8 @@
 .siDetails {
     flex: 1;
 }
+
+.siRatings {
+    display: flex;
+    justify-content: space-between;
+}
