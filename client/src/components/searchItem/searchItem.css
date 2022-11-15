@@ -67,3 +67,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.siRatings > span {
+    font-weight: 500;
+}
