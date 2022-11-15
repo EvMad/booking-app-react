@@ -30,6 +30,12 @@
     font-size: 12px;
 }
 
+.siTaxiOp {
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+}
+
 .siDetails {
     flex: 1;
 }
