@@ -44,6 +44,10 @@
     font-weight: bold;
 }
 
+.siFeatures {
+    font-size: 12px;
+}
+
 .siDetails {
     flex: 1;
 }
