@@ -82,3 +82,7 @@
     font-weight: bold;
     border: none;
 }
+
+.siDetailText {
+    text-align: right;
+}
