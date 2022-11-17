@@ -21,7 +21,9 @@ const Hotel = () => {
                     <span className="hotelPriceHighlight">Book a stay over $200 at this property and get a free airport taxi</span>
                     <div className="hotelImages">
                         <div className="hotelImgWrapper">
-                            <img src={ roomArray } alt="Hotel Interior" className="hotelImg" />
+                            {roomArray.map(photo => (
+                                <img src={ photo.src } alt="Hotel Interior" className="hotelImg" />
+                            ))}
                         </div>
                     </div>
                 </div>
