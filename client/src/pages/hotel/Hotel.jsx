@@ -1,8 +1,11 @@
 import './hotel.css';
+import Navbar from "../../components/navbar/Navbar.jsx";
 
 const Hotel = () => {
     return (
-        <div>Hotel</div>
+        <div>
+            <Navbar/>
+        </div>
     )
 };
 
