@@ -14,7 +14,10 @@ const Hotel = () => {
                     <h1 className="hotelTitle">Grand Hotel</h1>
                     <div className="hotelAddress">
                         <FontAwesomeIcon icon={faLocationDot}/>
+                        <span>567 Grand Ave Los Angeles</span>
                     </div>
+                    <span className="hotelDistance">Excellent Location - .5mi from center</span>
+                    <span className="hotelPriceHighlight">Book a stay over $200 at this property and get a free airport taxi</span>
                 </div>
             </div>
         </div>
