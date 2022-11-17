@@ -1,6 +1,8 @@
 import './hotel.css';
 import Navbar from "../../components/navbar/Navbar.jsx";
 import Header from "../../components/header/Header.jsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Hotel = () => {
     return (
@@ -10,6 +12,9 @@ const Hotel = () => {
             <div className="hotelContainer">
                 <div className="hotelWrapper">
                     <h1 className="hotelTitle">Grand Hotel</h1>
+                    <div className="hotelAddress">
+                        <FontAwesomeIcon icon={faLocationDot}/>
+                    </div>
                 </div>
             </div>
         </div>
