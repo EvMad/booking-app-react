@@ -9,4 +9,9 @@
     max-width: 1024px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.hotelImgWrapper {
+    width: 33%;
 }
