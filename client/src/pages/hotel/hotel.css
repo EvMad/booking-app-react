@@ -72,6 +72,11 @@
     flex: 3;
 }
 
+.hotelDesc {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
 .hotelDetailsPrice {
     flex: 1;
 }
