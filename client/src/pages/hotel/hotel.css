@@ -23,6 +23,11 @@
     gap: 10px;
 }
 
+.hotelDistance {
+    color: #0071c2;
+    font-weight: 500;
+}
+
 .hotelImgWrapper {
     width: 33%;
 }
