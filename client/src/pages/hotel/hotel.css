@@ -85,3 +85,7 @@
     flex-direction: column;
     gap: 20px;
 }
+.hotelDetailsPrice > h1 {
+    font-size: 18px;
+    color: #555;
+}
