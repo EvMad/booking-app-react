@@ -93,3 +93,7 @@
 .hotelDetailsPrice > span {
     font-size: 14px;
 }
+
+.hotelDetailsPrice > h2 {
+    font-weight: 300;
+} 
