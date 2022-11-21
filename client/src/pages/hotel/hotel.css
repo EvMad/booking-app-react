@@ -89,3 +89,7 @@
     font-size: 18px;
     color: #555;
 }
+
+.hotelDetailsPrice > span {
+    font-size: 14px;
+}
