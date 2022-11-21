@@ -71,3 +71,7 @@
 .hotelDetailsText {
     flex: 3;
 }
+
+.hotelDetailsPrice {
+    flex: 1;
+}
