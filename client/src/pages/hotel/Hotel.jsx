@@ -26,6 +26,9 @@ const Hotel = () => {
                                 </div>
                             ))}
                     </div>
+                    <div className="hotelDetails">
+                        <div className="hotelDetailsText"></div>
+                    </div>
                 </div>
             </div>
         </div>
