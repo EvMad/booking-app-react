@@ -1,6 +1,8 @@
 import './hotel.css';
 import Navbar from "../../components/navbar/Navbar.jsx";
 import Header from "../../components/header/Header.jsx";
+import MailList from "../../components/mailList/MailList.jsx";
+import Footer from "../../components/footer/Footer.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { roomArray } from '../../images/images.jsx';
@@ -40,6 +42,8 @@ const Hotel = () => {
                         </div>
                     </div>
                 </div>
+                <MailList />
+                <Footer />
             </div>
         </div>
     )
