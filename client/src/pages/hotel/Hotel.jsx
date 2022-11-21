@@ -12,6 +12,7 @@ const Hotel = () => {
             <Header type="list"/>
             <div className="hotelContainer">
                 <div className="hotelWrapper">
+                    <button className="bookNow"></button>
                     <h1 className="hotelTitle">Grand Hotel</h1>
                     <div className="hotelAddress">
                         <FontAwesomeIcon icon={faLocationDot}/>
