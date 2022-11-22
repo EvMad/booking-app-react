@@ -6,11 +6,12 @@ import Footer from "../../components/footer/Footer.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { roomArray } from '../../images/images.jsx';
-import { useState } from 'react';
+import { useState } from "react";
 
 const Hotel = () => {
 
-    const [slideNumber, setSlideNumber ] = useState(0);
+    const [slideNumber, setSlideNumber] = useState(0);
+    const [open, setOpen] = useState(false);
 
     return (
         <div>
