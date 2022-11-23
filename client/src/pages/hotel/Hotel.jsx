@@ -5,6 +5,7 @@ import MailList from "../../components/mailList/MailList.jsx";
 import Footer from "../../components/footer/Footer.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { roomArray } from '../../images/images.jsx';
 import { useState } from "react";
 
@@ -24,7 +25,9 @@ const Hotel = () => {
             <Navbar/>
             <Header type="list"/>
             <div className="hotelContainer">
-               {open &&  <div className="slider"></div>}
+               {open &&  <div className="slider">
+                <FontAwesomeIcon icon={faCircleXmark}/>
+                </div>}
                 <div className="hotelWrapper">
                     <button className="bookNow">Reserve or Book Now!</button>
                     <h1 className="hotelTitle">Grand Hotel</h1>
