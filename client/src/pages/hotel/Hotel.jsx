@@ -31,7 +31,7 @@ const Hotel = () => {
                 <FontAwesomeIcon icon={faCircleXmark}/>
                 <FontAwesomeIcon icon={faCircleArrowLeft}/>
                 <div className="sliderWrapper">
-                <img src="" alt="" className="sliderImg" />
+                <img src={roomArray[slideNumber]} alt="" className="sliderImg" />
                 </div>
                 <FontAwesomeIcon icon={faCircleArrowRight}/>
                 </div>}
