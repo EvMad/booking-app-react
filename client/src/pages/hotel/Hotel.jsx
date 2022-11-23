@@ -31,7 +31,7 @@ const Hotel = () => {
                     <div className="hotelImages">
                             {roomArray.map((photo, i) => (
                                 <div className="hotelImgWrapper">
-                                <img onClick={() => setSlideNumber(i)} src={ photo.src } alt="Hotel Interior" className="hotelImg" />
+                                <img onClick={handleOpen} src={ photo.src } alt="Hotel Interior" className="hotelImg" />
                                 </div>
                             ))}
                     </div>
