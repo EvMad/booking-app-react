@@ -117,6 +117,6 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #0071c2;
+    background-color: rgba(0, 0, 0, 0.426);
     z-index: 999;
 }
