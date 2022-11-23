@@ -6,6 +6,8 @@ import Footer from "../../components/footer/Footer.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import { faCircleArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { roomArray } from '../../images/images.jsx';
 import { useState } from "react";
 
@@ -27,6 +29,8 @@ const Hotel = () => {
             <div className="hotelContainer">
                {open &&  <div className="slider">
                 <FontAwesomeIcon icon={faCircleXmark}/>
+                <FontAwesomeIcon icon={faCircleArrowLeft}/>
+                <FontAwesomeIcon icon={faCircleArrowRight}/>
                 </div>}
                 <div className="hotelWrapper">
                     <button className="bookNow">Reserve or Book Now!</button>
