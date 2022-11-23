@@ -28,7 +28,7 @@ const Hotel = () => {
             <Header type="list"/>
             <div className="hotelContainer">
                {open &&  <div className="slider">
-                <FontAwesomeIcon icon={faCircleXmark}/>
+                <FontAwesomeIcon icon={faCircleXmark} className="close"/>
                 <FontAwesomeIcon icon={faCircleArrowLeft}/>
                 <div className="sliderWrapper">
                 <img src={roomArray[slideNumber]} alt="" className="sliderImg" />
@@ -47,7 +47,7 @@ const Hotel = () => {
                     <div className="hotelImages">
                             {roomArray.map((photo, i) => (
                                 <div className="hotelImgWrapper">
-                                <img onClick={()=>handleOpen(i)} src={ photo.src } alt="Hotel Interior" className="hotelImg" />
+                                <img onClick={()=>handleOpen(i)} src={photo.src} alt="Hotel Interior" className="hotelImg" />
                                 </div>
                             ))}
                     </div>
