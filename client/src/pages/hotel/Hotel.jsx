@@ -13,6 +13,12 @@ const Hotel = () => {
     const [slideNumber, setSlideNumber] = useState(0);
     const [open, setOpen] = useState(false);
 
+    const handleOpen = (i) => {
+        setSlideNumber(i);
+        setOpen(true);
+
+    }
+
     return (
         <div>
             <Navbar/>
