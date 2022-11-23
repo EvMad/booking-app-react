@@ -118,4 +118,5 @@
     width: 100vw;
     height: 100vh;
     background-color: #0071c2;
+    z-index: 999;
 }
