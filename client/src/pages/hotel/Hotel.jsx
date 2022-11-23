@@ -30,6 +30,9 @@ const Hotel = () => {
                {open &&  <div className="slider">
                 <FontAwesomeIcon icon={faCircleXmark}/>
                 <FontAwesomeIcon icon={faCircleArrowLeft}/>
+                <div className="sliderWrapper">
+                <img src="" alt="" className="sliderImg" />
+                </div>
                 <FontAwesomeIcon icon={faCircleArrowRight}/>
                 </div>}
                 <div className="hotelWrapper">
