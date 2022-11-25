@@ -28,7 +28,7 @@ const Hotel = () => {
             <Header type="list"/>
             <div className="hotelContainer">
                {open &&  <div className="slider">
-                <FontAwesomeIcon icon={faCircleXmark} className="close"/>
+                <FontAwesomeIcon icon={faCircleXmark} className="close" onClick={()=>setOpen(false)}/>
                 <FontAwesomeIcon icon={faCircleArrowLeft} className="arrow"/>
                 <div className="sliderWrapper">
                 <img src={roomArray[slideNumber]} alt="" className="sliderImg" />
