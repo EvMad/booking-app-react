@@ -19,7 +19,7 @@ router.delete("/:id", verifyAdmin, deleteHotel );
 
 //GET
 
-router.get("/:id", getHotel );
+router.get("/find/:id", getHotel );
 
 //GET ALL
 
