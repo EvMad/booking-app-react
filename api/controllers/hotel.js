@@ -81,12 +81,11 @@ export const countByCity = async (req, res, next) => {
 };
 
 export const countByType = async (req, res, next) => {
-    const hotelCount = Hotel.countDocuments({type:"hotel"})
+    
     try{
-        const list = await Promise.all(cities.map(city => {
-            return Hotel.countDocuments({city:city})
-        }))
-        res.status(200).json(list);
+        const hotelCount = Hotel.countDocuments({type:"hotel"});
+        const apartmentCount = await Hotel.countDocuments({type:"apartment"});
+        
     }catch(err){
         next(err);
     }
