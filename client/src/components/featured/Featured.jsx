@@ -1,5 +1,7 @@
+import useFetch from "../../hooks/useFetch.js";
 import "./featured.css";
 import { Chicago, NYC, Tokyo } from "../../images/images.jsx";
+
 
 
 const Featured = () => {
