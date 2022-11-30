@@ -2,6 +2,7 @@ import { Villa } from "../../images/images.jsx";
 import { Apartment } from "../../images/images.jsx";
 import { Hotel } from "../../images/images.jsx";
 import { Resort } from "../../images/images.jsx";
+import { useFetch } from "../../hooks/useFetch.js";
 import "./propertyList.css";
 
 const PropertyList = () => {
