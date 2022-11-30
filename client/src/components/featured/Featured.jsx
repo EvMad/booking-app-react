@@ -14,8 +14,8 @@ const Featured = () => {
         <>        <div className="featuredItem">
         <img src={Chicago} alt="Chicago skyline at sunset" className="featuredImg" />
         <div className="featuredTitles">
-            <h1>Chicago</h1>
-            <h2>LakeShore Properties</h2>
+            <h1>Berlin</h1>
+            <h2>{data[0]} properties</h2>
         </div>
     </div>
     <div className="featuredItem">
