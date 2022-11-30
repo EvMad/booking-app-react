@@ -5,6 +5,9 @@ import { Chicago, NYC, Tokyo } from "../../images/images.jsx";
 
 
 const Featured = () => {
+
+    const { data, loading, error } = useFetch("");
+
     return (
         <div className="featured">
             <div className="featuredItem">
