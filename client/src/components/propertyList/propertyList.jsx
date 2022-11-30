@@ -13,7 +13,8 @@ const PropertyList = () => {
 
     return (
         <div className="pList">
-            <div className="pListItem">
+       {loading ? ("loading") : (<>
+        <div className="pListItem">
                 <img src={Villa} alt="Villa with glass sliding doors and swimming pool" className="pListImg" />
                 <div className="pListTitles">
                     <h1>Villas</h1>
@@ -41,6 +42,7 @@ const PropertyList = () => {
                     <h2>76,549 resorts</h2>
                 </div>
             </div>
+       </>)}
             
         </div>
     );
