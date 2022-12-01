@@ -15,19 +15,19 @@ const PropertyList = () => {
         <div className="pList">
        {loading ? ("loading") : (<>
 
-       {data && images.map(
-         <div className="pListItem">
+       {data && images.map(img => (   
+       
+        <div className="pListItem">
          <img src={Villa} alt="Villa with glass sliding doors and swimming pool" className="pListImg" />
          <div className="pListTitles">
              <h1>Villas</h1>
              <h2>9579 villas</h2>
          </div>
          </div>
-       )}
-           
-       </>)}
-            
-        </div>
+         ))}
+           </>
+           )}
+            </div>
     );
 };
 
