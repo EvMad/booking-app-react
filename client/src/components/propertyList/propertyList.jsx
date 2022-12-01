@@ -7,9 +7,9 @@ import "./propertyList.css";
 
 const PropertyList = () => {
 
-    const { data, loading, error } = useFetch(
-        "hotels/countByType"
-    );
+    const { data, loading, error } = useFetch("hotels/countByType");
+
+    const images = [{Villa, Apartment, Hotel, Resort}];
 
     return (
         <div className="pList">
