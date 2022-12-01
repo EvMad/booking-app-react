@@ -15,13 +15,13 @@ const PropertyList = () => {
         <div className="pList">
        {loading ? ("loading") : (<>
 
-       {data && images.map(img => (   
+       {data && images.map((img, i) => (   
        
         <div className="pListItem">
-         <img src={Villa} alt="Villa with glass sliding doors and swimming pool" className="pListImg" />
+         <img src={img} alt="Villa with glass sliding doors and swimming pool" className="pListImg" />
          <div className="pListTitles">
              <h1>Villas</h1>
-             <h2>9579 villas</h2>
+             <h2>{data[i].count}</h2>
          </div>
          </div>
          ))}
