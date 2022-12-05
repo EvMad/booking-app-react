@@ -9,6 +9,7 @@ const FeaturedProperties = () => {
 
     return (
         <div className="fp">
+            {loading ? "Loading" : <></>}
             <div className="fpItem">
             <img className="fpImg" src={ Feature1 } alt="" />
             <span className="fpName">Fountain Hotel</span>
