@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navContainer">
-                <Link>
+                <Link to="/" style={{color:"inherit", textDecoration:"none"}}>
                 <span className="logo">Booking</span>
                 </Link>
                 <div className="navItems">
