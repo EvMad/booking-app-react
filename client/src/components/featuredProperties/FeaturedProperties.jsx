@@ -16,7 +16,7 @@ const FeaturedProperties = () => {
             <img className="fpImg" src={ Feature1 } alt="" />
             <span className="fpName">{item.name}</span>
             <span className="fpCity">{item.city}</span>
-            <span className="fpPrice">Starting from $110</span>
+            <span className="fpPrice">Starting from ${item.cheapestPrice}</span>
             <div className="fpRating">
                 <button>8.7</button>
                 <span>Excellent</span>
