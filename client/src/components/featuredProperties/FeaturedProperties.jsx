@@ -1,5 +1,7 @@
+import useFetch from "../../hooks/useFetch.js";
 import "./featuredProperties.css";
 import { Feature1, Feature2, Feature3, Feature4 } from "../../images/images.jsx";
+
 
 const FeaturedProperties = () => {
     return (
