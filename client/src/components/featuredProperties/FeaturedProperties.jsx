@@ -5,7 +5,7 @@ import { Feature1, Feature2, Feature3, Feature4 } from "../../images/images.jsx"
 
 const FeaturedProperties = () => {
 
-    const { data, loading, error } = useFetch("/hotels/countByType");
+    const { data, loading, error } = useFetch("/hotels?featured=true&limit=4");
 
     return (
         <div className="fp">
