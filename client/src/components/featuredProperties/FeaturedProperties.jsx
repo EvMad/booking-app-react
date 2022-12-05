@@ -9,8 +9,8 @@ const FeaturedProperties = () => {
 
     return (
         <div className="fp">
-            {loading ? "Loading" : <></>}
-            <div className="fpItem">
+            {loading ? "Loading" : 
+            <> <div className="fpItem">
             <img className="fpImg" src={ Feature1 } alt="" />
             <span className="fpName">Fountain Hotel</span>
             <span className="fpCity">Rome, Italy</span>
@@ -19,7 +19,8 @@ const FeaturedProperties = () => {
                 <button>8.7</button>
                 <span>Excellent</span>
             </div>
-            </div>
+            </div></>}
+       
             <div className="fpItem">
             <img className="fpImg" src={ Feature2 } alt="" />
             <span className="fpName">Boutique Hotel Garden</span>
