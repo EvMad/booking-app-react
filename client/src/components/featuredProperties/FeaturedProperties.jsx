@@ -21,36 +21,6 @@ const FeaturedProperties = () => {
             </div>
             </div></>}
        
-            <div className="fpItem">
-            <img className="fpImg" src={ Feature2 } alt="" />
-            <span className="fpName">Boutique Hotel Garden</span>
-            <span className="fpCity">Athens, Greece</span>
-            <span className="fpPrice">Starting from $130</span>
-            <div className="fpRating">
-                <button>8.9</button>
-                <span>Excellent</span>
-            </div>
-            </div>
-            <div className="fpItem">
-            <img className="fpImg" src={ Feature3 } alt="" />
-            <span className="fpName">Aparthotel Grand</span>
-            <span className="fpCity">Bangkok, Thailand</span>
-            <span className="fpPrice">Starting from $120</span>
-            <div className="fpRating">
-                <button>9.1</button>
-                <span>Excellent</span>
-            </div>
-            </div>
-            <div className="fpItem">
-            <img className="fpImg" src={ Feature4 } alt="" />
-            <span className="fpName">Central Square Hotel</span>
-            <span className="fpCity">Sydney, Australia</span>
-            <span className="fpPrice">Starting from $175</span>
-            <div className="fpRating">
-                <button>8.9</button>
-                <span>Excellent</span>
-            </div>
-            </div>
         </div>
         
         
