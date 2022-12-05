@@ -12,7 +12,7 @@ const FeaturedProperties = () => {
             {loading ? ("Loading") : 
             (<>{data.map((item) => (
                 
-            <div className="fpItem">
+            <div className="fpItem" key={item._id}>
             <img className="fpImg" src={ Feature1 } alt="" />
             <span className="fpName">Fountain Hotel</span>
             <span className="fpCity">Rome, Italy</span>
