@@ -14,7 +14,7 @@ const FeaturedProperties = () => {
                 
             <div className="fpItem" key={item._id}>
             <img className="fpImg" src={ Feature1 } alt="" />
-            <span className="fpName">Fountain Hotel</span>
+            <span className="fpName">{item.name}</span>
             <span className="fpCity">Rome, Italy</span>
             <span className="fpPrice">Starting from $110</span>
             <div className="fpRating">
