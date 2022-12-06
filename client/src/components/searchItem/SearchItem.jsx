@@ -12,9 +12,7 @@ const SearchItem = ({item}) => {
                 <span className="siSubtitle">
                     One Bedroom Apartment with Balcony
                 </span>
-                <span className="siFeatures">
-                    Entire apartment {`\u00B7`} 1 bathroom {`\u00B7`}  1 queen bed
-                </span>
+                <span className="siFeatures">{item.desc}</span>
                 <span className="siCancelOp">Free cancellation</span>
                 <span className="siCancelOpSubtitle">You can cancel later, so lock in this great price today!</span>
             </div>
