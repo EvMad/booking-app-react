@@ -7,7 +7,7 @@ const SearchItem = ({item}) => {
             <img src={item.photos[0]} alt="View from Coastal Italian Hotel Room" className="siImg" />
             <div className="siDesc">
                 <h1 className="siTitle">{item.name}</h1>
-                <span className="siDistance">0.1mi from center</span>
+                <span className="siDistance">{item.distance}mi from center</span>
                 <span className="siTaxiOp">Free airport shuttle</span>
                 <span className="siSubtitle">
                     One Bedroom Apartment with Balcony
