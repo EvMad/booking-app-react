@@ -17,10 +17,10 @@ const SearchItem = ({item}) => {
                 <span className="siCancelOpSubtitle">You can cancel later, so lock in this great price today!</span>
             </div>
             <div className="siDetails">
-                <div className="siRating">
+              {item.rating &&   <div className="siRating">
                     <span>Excellent</span>
                     <button>8.9</button>
-                </div>
+                </div>}
                 <div className="siDetailText">
                     <span className="siPrice">$149</span>
                     <span className="siTaxOp">Includes taxes and fees</span>
