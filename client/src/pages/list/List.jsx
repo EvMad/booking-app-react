@@ -79,7 +79,8 @@ const List = () => {
                         <button>Search</button>
                     </div>
                     <div className="listResult">
-                        <SearchItem />
+                        
+                        { loading ? "loading" : <><SearchItem /></>}
                        
                     </div>
                 </div>
