@@ -4,7 +4,7 @@ import { Search1 } from "../../images/images.jsx";
 const SearchItem = ({item}) => {
     return (
         <div className="searchItem">
-            <img src={ Search1 } alt="View from Coastal Italian Hotel Room" className="siImg" />
+            <img src={item.photos[0]} alt="View from Coastal Italian Hotel Room" className="siImg" />
             <div className="siDesc">
                 <h1 className="siTitle">Oia Suites</h1>
                 <span className="siDistance">0.1mi from center</span>
