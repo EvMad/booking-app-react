@@ -1,7 +1,7 @@
 import "./searchItem.css";
 import { Search1 } from "../../images/images.jsx";
 
-const SearchItem = () => {
+const SearchItem = ({item}) => {
     return (
         <div className="searchItem">
             <img src={ Search1 } alt="View from Coastal Italian Hotel Room" className="siImg" />
