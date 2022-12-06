@@ -16,7 +16,7 @@ const List = () => {
     const [openDate, setOpenDate] = useState(false);
     const [options, setOptions] = useState(location.state.options);
 
-    const { data, loading, error, refetch } = useFetch(`/hotel?city=${destination}`);
+    const { data, loading, error, refetch } = useFetch(`/hotels?city=${destination}`);
 
     return (
         <div>
