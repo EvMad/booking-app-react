@@ -17,9 +17,9 @@ const SearchItem = ({item}) => {
                 <span className="siCancelOpSubtitle">You can cancel later, so lock in this great price today!</span>
             </div>
             <div className="siDetails">
-              {item.rating &&   <div className="siRating">
+              {item.rating && <div className="siRating">
                     <span>Excellent</span>
-                    <button>8.9</button>
+                    <button>{item.rating}</button>
                 </div>}
                 <div className="siDetailText">
                     <span className="siPrice">$149</span>
