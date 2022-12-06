@@ -1,5 +1,6 @@
 import "./searchItem.css";
 import { Search1 } from "../../images/images.jsx";
+import { Link } from "react-router-dom";
 
 const SearchItem = ({item}) => {
     return (
