@@ -20,6 +20,10 @@ const List = () => {
 
     const { data, loading, error, refetch } = useFetch(`/hotels?city=${destination}&min=${min}&max=${max}`);
 
+    const handleClick = () => {
+        refetch();
+    };
+
     return (
         <div>
         <Navbar/>
