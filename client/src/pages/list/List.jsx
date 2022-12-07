@@ -78,7 +78,7 @@ const List = () => {
                             </div>
                        </div>
                         </div>
-                        <button>Search</button>
+                        <button onClick={handleClick}>Search</button>
                     </div>
                     <div className="listResult">
                         
