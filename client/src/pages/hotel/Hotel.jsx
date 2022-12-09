@@ -59,7 +59,7 @@ const Hotel = () => {
                         <FontAwesomeIcon icon={faLocationDot}/>
                         <span>{data.address}</span>
                     </div>
-                    <span className="hotelDistance">Excellent Location - .5mi from center</span>
+                    <span className="hotelDistance">Excellent Location - {data.distance}mi from center</span>
                     <span className="hotelPriceHighlight">Book a stay over $200 at this property and get a free airport taxi</span>
                     <div className="hotelImages">
                             {roomArray.map((photo, i) => (
