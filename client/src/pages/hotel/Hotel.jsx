@@ -43,7 +43,7 @@ const Hotel = () => {
         <div>
             <Navbar/>
             <Header type="list"/>
-            <div className="hotelContainer">
+           {loading ? ( "loading" ) : ( <div className="hotelContainer">
                {open &&  <div className="slider">
                 <FontAwesomeIcon icon={faCircleXmark} className="close" onClick={()=>setOpen(false)}/>
                 <FontAwesomeIcon icon={faCircleArrowLeft} className="arrow" onClick={()=>handleMove("l")}/>
@@ -83,7 +83,7 @@ const Hotel = () => {
                 </div>
                 <MailList />
                 <Footer />
-            </div>
+            </div>)}
         </div>
     )
 };
