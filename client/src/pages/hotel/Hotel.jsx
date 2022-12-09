@@ -15,6 +15,7 @@ import { useLocation } from "react-router-dom";
 
 const Hotel = () => {
 
+    const location = useLocation();
     const [slideNumber, setSlideNumber] = useState(0);
     const [open, setOpen] = useState(false);
 
