@@ -10,6 +10,7 @@ import { faCircleArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { roomArray } from '../../images/images.jsx';
 import { useState } from "react";
+import useFetch from "../../hooks/useFetch.js";
 
 const Hotel = () => {
 
