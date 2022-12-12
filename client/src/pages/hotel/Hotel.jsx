@@ -48,7 +48,7 @@ const Hotel = () => {
                 <FontAwesomeIcon icon={faCircleXmark} className="close" onClick={()=>setOpen(false)}/>
                 <FontAwesomeIcon icon={faCircleArrowLeft} className="arrow" onClick={()=>handleMove("l")}/>
                 <div className="sliderWrapper">
-                <img src={data.photos[slideNumber]?.src} alt="" className="sliderImg" />
+                <img src={data.photos[slideNumber]} alt="" className="sliderImg" />
                 </div>
                 <FontAwesomeIcon icon={faCircleArrowRight} className="arrow" onClick={()=>handleMove("r")}/>
                 </div>}
