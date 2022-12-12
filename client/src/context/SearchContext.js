@@ -19,4 +19,8 @@ const SearchReducer = (state,action) => {
         default:
             return state;
     }
+};
+
+export const SearchContextProvider = ({children}) => {
+    const [state,dispatch] = useReducer(SearchReducer, INITIAL_STATE)
 }
