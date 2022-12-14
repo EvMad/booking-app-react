@@ -13,6 +13,7 @@ import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 import { format } from "date-fns";
 import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
 
 const Header = ({type}) => {
     const [destination, setDestination] = useState("");
