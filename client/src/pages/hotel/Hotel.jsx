@@ -24,7 +24,7 @@ const Hotel = () => {
 
     const { data, loading, error } = useFetch(`/hotels/find/${id}`);
 
-    const {dates} = useContext(SearchContext);
+    const {date} = useContext(SearchContext);
 
     const handleOpen = (i) => {
         setSlideNumber(i);
