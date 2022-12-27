@@ -88,7 +88,7 @@ const Hotel = () => {
                         <div className="hotelDetailsPrice">
                             <h1>Perfect for a 5-night stay!</h1>
                             <span>Located in the heart of Los Angeles, this property has an excellent location score of 9.1!</span>
-                            <h2><b>$745</b> /5 nights </h2>
+                            <h2><b>$745</b> ({days} nights) </h2>
                             <button>Reserve or Book Now!</button>
                         </div>
                     </div>
