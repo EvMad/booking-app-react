@@ -1,13 +1,9 @@
 import { createContext, useReducer } from "react";
 
 const INITIAL_STATE = {
-    city: undefined,
-    dates: [],
-    options: {
-        adults: undefined,
-        children: undefined,
-        rooms: undefined,
-    },
+   user: null,
+   loading: false,
+   error: null
 };
 
 export const AuthContext = createContext(INITIAL_STATE);
