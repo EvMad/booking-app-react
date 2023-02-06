@@ -12,7 +12,11 @@ const Login = () => {
     const { loading, error, dispatch } = useContext(AuthContext);
 
     return (
-        <div>Login</div>
+        <div className="login">
+            <div className="lContainer">
+                <input type="text" placeholder="username" id="username" onChange={handleChange} className="lInput"></input>
+            </div>
+        </div>
     )
 };
 
