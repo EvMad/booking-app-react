@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState, useContext } from "react";
+import { useState, useContext, useNavigate } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import "./login.css";
 
@@ -11,6 +11,8 @@ const Login = () => {
     });
 
     const { user, loading, error, dispatch } = useContext(AuthContext);
+
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         setCredentials((prev) => ({...prev, [e.target.id]: e.target.value}));
