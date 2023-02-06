@@ -15,6 +15,7 @@ const Login = () => {
         <div className="login">
             <div className="lContainer">
                 <input type="text" placeholder="username" id="username" onChange={handleChange} className="lInput"></input>
+                <input type="password" placeholder="password" id="password" onChange={handleChange} className="lInput"></input>
             </div>
         </div>
     )
