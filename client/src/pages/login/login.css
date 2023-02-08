@@ -10,3 +10,8 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.lInput {
+    height: 30px;
+    padding: 10px;
+}
