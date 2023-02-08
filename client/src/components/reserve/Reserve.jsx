@@ -1,6 +1,6 @@
 import "./reserve.css";
 
-const Reserve = ({setOpen}) => {
+const Reserve = ({setOpen, hotelId}) => {
     return (
         <div className="reserve">Reserve</div>
     )
