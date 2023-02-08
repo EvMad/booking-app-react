@@ -3,6 +3,7 @@ import Navbar from "../../components/navbar/Navbar.jsx";
 import Header from "../../components/header/Header.jsx";
 import MailList from "../../components/mailList/MailList.jsx";
 import Footer from "../../components/footer/Footer.jsx";
+import Reserve from "../../components/reserve/Reserve.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
