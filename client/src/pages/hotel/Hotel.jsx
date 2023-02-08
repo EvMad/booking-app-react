@@ -9,7 +9,7 @@ import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { faCircleArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { roomArray } from '../../images/images.jsx';
-import { useState } from "react";
+import { useState, useNavigate } from "react";
 import useFetch from "../../hooks/useFetch.js";
 import { useLocation } from "react-router-dom";
 import { useContext } from 'react';
@@ -25,6 +25,7 @@ const Hotel = () => {
 
     const { data, loading, error } = useFetch(`/hotels/find/${id}`);
     const {user} = useContext(AuthContext);
+    const navigate = useNavigate();
 
     const { dates, options } = useContext(SearchContext);
 
@@ -55,6 +56,11 @@ const Hotel = () => {
     };
 
     const handleClick = () => {
+        if(user){
+
+        }else{
+
+        }
 
     };
 
