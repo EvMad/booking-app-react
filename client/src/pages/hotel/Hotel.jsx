@@ -58,11 +58,10 @@ const Hotel = () => {
 
     const handleClick = () => {
         if(user){
-
+            setOpenModal(true);
         }else{
-            navigate("/login")
+            navigate("/login");
         }
-
     };
 
     return (
@@ -109,6 +108,7 @@ const Hotel = () => {
                 <MailList />
                 <Footer />
             </div>)}
+            {openModal && }
         </div>
     )
 };
