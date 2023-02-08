@@ -14,6 +14,7 @@ import useFetch from "../../hooks/useFetch.js";
 import { useLocation } from "react-router-dom";
 import { useContext } from 'react';
 import { SearchContext } from '../../context/SearchContext';
+import { AuthContext } from "../../context/AuthContext";
 
 const Hotel = () => {
 
@@ -23,6 +24,7 @@ const Hotel = () => {
     const [open, setOpen] = useState(false);
 
     const { data, loading, error } = useFetch(`/hotels/find/${id}`);
+    const {user} = useContext(AuthContext);
 
     const { dates, options } = useContext(SearchContext);
 
