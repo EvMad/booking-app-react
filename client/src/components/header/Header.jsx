@@ -35,6 +35,7 @@ const Header = ({type}) => {
     });
 
     const navigate = useNavigate();
+    const { user } = useContext(AuthContext);
 
     const handleOption = (name, operation) => {
         setOptions((prev) => {
