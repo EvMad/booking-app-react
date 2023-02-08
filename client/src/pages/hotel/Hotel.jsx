@@ -109,7 +109,7 @@ const Hotel = () => {
                 <MailList />
                 <Footer />
             </div>)}
-            {openModal && <Reserve/>}
+            {openModal && <Reserve setOpen={setOpenModal} hotelId={id}/>}
         </div>
     )
 };
