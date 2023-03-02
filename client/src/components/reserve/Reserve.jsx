@@ -25,6 +25,8 @@ const Reserve = ({setOpen, hotelId}) => {
         return dates;
     };
 
+    const alldates = getDatesInRange(dates[0].startDate, dates[0].endDate);
+
     const handleSelect = (e) => {
         const checked = e.target.checked;
         const value = e.target.value;
