@@ -44,7 +44,12 @@ const Reserve = ({setOpen, hotelId}) => {
             );
     };
 
-    const handleClick = () => {
+    const handleClick = async () => {
+        try{
+            await Promise.all(selectedRooms)
+        }catch(err){
+
+        }
 
     };
 
