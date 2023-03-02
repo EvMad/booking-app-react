@@ -22,6 +22,12 @@ const Reserve = ({setOpen, hotelId}) => {
                             <div className="rDesc">{item.desc}</div>
                             <div className="rMax">Max People: <b>{item.maxPeople}</b></div>
                             <div className="rPrice">{item.price}</div>
+                            {item.roomNumbers.map((roomNumber) => (
+                                <div className="room">
+                                    <label>{roomNumber.number}</label>
+                                    <input type="select" value={roomNumber._id} onChange={handleSelect}/>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 ))}
