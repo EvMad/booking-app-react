@@ -39,7 +39,7 @@ const AuthReducer = (state,action) => {
     }
 };
 
-export const AuthContextProvider = ({children}) => {
+export const AuthContextProvider = ({ children }) => {
     const [state,dispatch] = useReducer(AuthReducer, INITIAL_STATE);
 
     useEffect(()=>{
