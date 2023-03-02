@@ -18,7 +18,9 @@ const Reserve = ({setOpen, hotelId}) => {
                 {data.map(item=>(
                     <div className="rItem">
                         <div className="rItemInfo">
-                            
+                            <div className="rTitle">{item.title}</div>
+                            <div className="rDesc">{item.desc}</div>
+                            <div className="rMax">{item.maxPeople}</div>
                         </div>
                     </div>
                 ))}
