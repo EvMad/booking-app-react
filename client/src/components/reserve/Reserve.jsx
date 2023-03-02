@@ -27,6 +27,14 @@ const Reserve = ({setOpen, hotelId}) => {
 
     const alldates = getDatesInRange(dates[0].startDate, dates[0].endDate);
 
+    const isAvailable = (roomNumber) => {
+        const isFound = roomNumber.unavailableDates.some((date) =>
+        alldates.includes(new Date(date).getTime())
+        );
+
+        return !isFound;
+    };
+
     const handleSelect = (e) => {
         const checked = e.target.checked;
         const value = e.target.value;
