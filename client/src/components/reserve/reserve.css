@@ -35,3 +35,19 @@
     flex-direction: column;
     gap: 5px;
 }
+
+.rTitle {
+    font-weight: 500;
+}
+
+.rDesc {
+    font-weight: 300;
+}
+
+.rMax {
+    font-size: 12px;
+}
+
+.rPrice {
+    font-weight: 500;
+}
