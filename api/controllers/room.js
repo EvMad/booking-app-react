@@ -49,7 +49,7 @@ export const updateRoomAvailability = async (req, res, next) => {
             { "roomNumbers._id": req.params.id }, 
         {
             $push: {
-                "roomNumbers"
+                "roomNumbers.$.unavailableDates": req.body.dates
             },
         }
         );
