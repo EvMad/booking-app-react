@@ -41,7 +41,7 @@ const Reserve = ({setOpen, hotelId}) => {
                         </div>
                     </div>
                 ))}
-                <button className="rButton">Reserve Now!</button>
+                <button onClick={handleClick} className="rButton">Reserve Now!</button>
             </div>
         </div>
     );
