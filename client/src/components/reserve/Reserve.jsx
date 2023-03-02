@@ -13,7 +13,7 @@ const Reserve = ({setOpen, hotelId}) => {
     const getDatesInRange = (startDate,endDate) => {
         const start = new Date(startDate);
         const end = new Date(endDate);
-        const date = new Date(start).getTime();
+        const date = new Date(start.getTime());
 
         let list = [];
 
