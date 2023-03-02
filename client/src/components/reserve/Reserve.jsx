@@ -15,14 +15,14 @@ const Reserve = ({setOpen, hotelId}) => {
         const end = new Date(endDate);
         const date = new Date(start.getTime());
 
-        let list = [];
+        let dates = [];
 
         while(date <= end){
-            list.push(new Date(date))
+            dates.push(new Date(date))
             date.setDate(date.getDate()+1)
         }
 
-        return list
+        return dates;
     };
 
     const handleSelect = (e) => {
