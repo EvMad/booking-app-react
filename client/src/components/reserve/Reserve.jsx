@@ -2,11 +2,13 @@ import "./reserve.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import useFetch from "../../hooks/useFetch";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { SearchContext } from '../../context/SearchContext';
 
 const Reserve = ({setOpen, hotelId}) => {
     const [selectedRooms,setSelectedRooms] = useState([]);
     const { data, loading, error } = useFetch(`hotels/room/${hotelId}`);
+    const {dates} = useContext(SearchContext);
 
     const handleSelect = (e) => {
         const checked = e.target.checked;
@@ -15,6 +17,10 @@ const Reserve = ({setOpen, hotelId}) => {
             checked ? [...selectedRooms, value] 
             : selectedRooms.filter(item=>item !== value)
             );
+    };
+
+    const handleClick = () => {
+
     };
 
     return (
