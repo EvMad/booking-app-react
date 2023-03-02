@@ -41,9 +41,10 @@ const Reserve = ({setOpen, hotelId}) => {
                         </div>
                     </div>
                 ))}
+                <button className="rButton">Reserve Now!</button>
             </div>
         </div>
-    )
+    );
 };
 
 export default Reserve;
