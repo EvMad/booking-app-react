@@ -27,4 +27,11 @@
     display: flex;
     align-items: center;
     gap: 50px;
+    padding: 20px;
+}
+
+.rInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
