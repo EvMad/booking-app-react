@@ -46,7 +46,9 @@ const Reserve = ({setOpen, hotelId}) => {
 
     const handleClick = async () => {
         try{
-            await Promise.all(selectedRooms)
+            await Promise.all(selectedRooms.map(roomId)=>{
+                const res = axios.put(`/rooms/availability/${roomId}`, {dates:alldates})
+            })
         }catch(err){
 
         }
