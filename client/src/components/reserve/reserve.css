@@ -52,6 +52,13 @@
     font-weight: 500;
 }
 
+.rSelectRooms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 8px;
+}
+
 .rButton {
     border: none;
     padding: 10px 20px;
