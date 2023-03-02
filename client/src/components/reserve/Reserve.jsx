@@ -10,7 +10,9 @@ const Reserve = ({setOpen, hotelId}) => {
     const { data, loading, error } = useFetch(`hotels/room/${hotelId}`);
     const {dates} = useContext(SearchContext);
 
-    const getDatesInRange = (start,end) => {
+    const getDatesInRange = (startDate,endDate) => {
+        const start = new Date(startDate);
+        const end = new Date(endDate);
         const date = new Date(start).getTime();
 
         let list = [];
