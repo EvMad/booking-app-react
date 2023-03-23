@@ -7,13 +7,17 @@ const FeaturedProperties = () => {
 
     const { data, loading, error } = useFetch("/hotels?featured=true&limit=4");
 
+    var photoArray = { Feature1, Feature2, Feature3, Feature4 };
+
+    var randomPhoto = photoArray[Math.floor(Math.random() * photoArray.length)];
+
     return (
         <div className="fp">
             {loading ? ("Loading") : 
             (<>{data.map((item) => (
                 
             <div className="fpItem" key={item._id}>
-            <img className="fpImg" src={item.photos[0]} alt="" />
+            <img className="fpImg" src={randomPhoto} alt="Featured Property" />
             <span className="fpName">{item.name}</span>
             <span className="fpCity">{item.city}</span>
             <span className="fpPrice">Starting from ${item.cheapestPrice}</span>
