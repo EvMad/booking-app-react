@@ -1,6 +1,6 @@
 import useFetch from "../../hooks/useFetch.js";
 import "./featured.css";
-import { Chicago, NYC, Tokyo } from "../../images/images.jsx";
+import { Chicago, NYC, Tokyo, Search1 } from "../../images/images.jsx";
 
 
 
@@ -12,9 +12,9 @@ const Featured = () => {
         <div className="featured">
     {loading ? ( "Loading please wait" ) : (
         <>        <div className="featuredItem">
-        <img src={Chicago} alt="Chicago skyline at sunset" className="featuredImg" />
+        <img src={Search1} alt="Chicago skyline at sunset" className="featuredImg" />
         <div className="featuredTitles">
-            <h1>Chicago</h1>
+            <h1>Amalfi</h1>
             <h2>{data[0]} Properties Available</h2>
         </div>
     </div>
