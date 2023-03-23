@@ -1,4 +1,4 @@
-import { Villa, Apartment, Hotel, Resort } from "../../images/images.jsx";
+import { Villa, Apartment, Hotel, Resort, Feature4 } from "../../images/images.jsx";
 import useFetch from "../../hooks/useFetch.js";
 import "./propertyList.css";
 
@@ -17,7 +17,7 @@ const PropertyList = () => {
          <img src={Villa} alt="Villa with glass sliding doors and swimming pool" className="pListImg" />
          <div className="pListTitles">
              <h1>Villas</h1>
-             <h2>Explore More Available Villas</h2>
+             <h2>Explore Available Villas</h2>
          </div>
          </div>
 
@@ -25,7 +25,7 @@ const PropertyList = () => {
          <img src={Apartment} alt="Apartment Living Room" className="pListImg" />
          <div className="pListTitles">
              <h1>Apartments</h1>
-             <h2>Explore More Available Apartments</h2>
+             <h2>Explore Available Apartments</h2>
          </div>
          </div>
 
@@ -33,7 +33,7 @@ const PropertyList = () => {
          <img src={Hotel} alt="Hotel Balcony" className="pListImg" />
          <div className="pListTitles">
              <h1>Hotels</h1>
-             <h2>Explore More Available Hotels</h2>
+             <h2>Explore Available Hotels</h2>
          </div>
          </div>
 
@@ -41,7 +41,7 @@ const PropertyList = () => {
          <img src={Resort} alt="Oceanside bungalows" className="pListImg" />
          <div className="pListTitles">
              <h1>Resorts</h1>
-             <h2>Explore More Available Resorts</h2>
+             <h2>Explore Available Resorts</h2>
          </div>
          </div>
 
@@ -50,9 +50,9 @@ const PropertyList = () => {
        {data && images.map((img, i) => (   
        
         <div className="pListItem" key={i}>
-         <img src={Resort} alt="Villa with glass sliding doors and swimming pool" className="pListImg" />
+         <img src={Feature4} alt="Villa with glass sliding doors and swimming pool" className="pListImg" />
          <div className="pListTitles">
-             <h1>{data[i]?.type}</h1>
+             <h1>More...</h1>
              <h2>{data[i]?.count} {data[i]?.type}</h2>
          </div>
          </div>
